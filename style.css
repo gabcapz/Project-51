@@ -1,0 +1,100 @@
+body{
+    background: peachpuff url("OrigamiImages/background.jpg") fixed;
+    background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    background-image: url("OrigamiImages/back.jpg");
+    color:rgb(248, 58, 52);
+    font-family: Lucida handwriting, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgb(255, 0, 200);
+    border-radius:30px;
+    padding: 30px;
+}
+
+li{
+    color:rgb(199, 29, 199);
+    font-family: Brush Script MT, cursive;
+    font-size: 24px;
+}
+
+.headertext{
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -230%);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    margin: 100px;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:400;
+    color: white;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 50px;
+    background-color: #ffffff;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    margin: 25px;
+    /* transform: translate(0%, 0%); */
+
+    width: 310px;
+    font-family: Algerian;
+    color: rgb(241, 79, 14);
+    text-align: left;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -200%);
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    color: rgb(211, 32, 32);
+}
+
+/* .origamione{
+    border-radius: 50px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    margin: 3px;
+    bottom: 100%;
+    transform: translate(0%, -50%);
+
+    width: 310px;
+    font-family: Algerian;
+    color: rgb(241, 79, 14);
+    text-align: left;
+} */
